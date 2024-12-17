@@ -1,0 +1,175 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="row mx-lg-5 mt-4 text-center">
+    <div class="col-lg-3 d-flex align-items-center justify-content-center h100 bg-white rounded-2 pb-2"
+    style="background-image: url('/img/backgraond2.jpg'); background-size: cover; background-position: center;">
+        <div >
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="Black" class="bi bi-truck" viewBox="0 0 16 16">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                </svg>
+                <h2>Free Shipping</h2>
+            </div>
+            <br />
+            <a href="~/Product">
+                <button type="button" class="btn btn-primary btn-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"></path>
+                    </svg>
+                    Go to Shop
+                </button>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 ">
+        <div class="shadow  mb-4 mt-4 bg-white rounded" style="background-color: #DFF2EB">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="~/img/slide1.jpg" class="d-block w-100 h-25" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/img/slide2.jpg" class="d-block w-100 h-25" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 d-flex align-items-center justify-content-center h100 bg-white rounded-2 pb-2"
+         style="background-image: url('/img/backgraound1.jpg'); background-size: cover; background-position: center;">
+        <div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="Black" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                    <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5" />
+                </svg>
+                <h2>High Quality</h2>
+            </div>
+            <br />
+            <a href="~/Home/About">
+                <button type="button" class="btn btn-primary btn-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                    </svg>
+                    About Us
+                </button>
+            </a>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+<div class="container mb-4 mt-4">
+    <h1 style="text-align:center">Explore Categories </h1>
+    <br />
+    <div style=" text-align:center">
+        <div class="row row-cols-md-3 g-5">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="/Product/Category?id=Accessory" class="custom-link">
+                        <img src="https://woocommercecore.mystagingwebsite.com/wp-content/uploads/2017/12/cap-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Accessory</h5>
+                            <p class="card-text">Start expressing your style right away with accessories that complete your elegance!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="/Product/Category?id=T-shirt" class="custom-link">
+                        <img src="https://woocommercecore.mystagingwebsite.com/wp-content/uploads/2017/12/vnech-tee-blue-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">T-shirt</h5>
+                            <p class="card-text">Find the perfect t-shirt to match your style and comfort!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="/Product/Category?id=Hoodie" class="custom-link">
+                        <img src="https://woocommercecore.mystagingwebsite.com/wp-content/uploads/2017/12/hoodie-with-logo-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hoodie</h5>
+                            <p class="card-text">Stay cozy and stylish with our trendy hoodies!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <h1 style="text-align:center">Explore New Products</h1>
+    <br />
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+        
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Product/Details/0a5838a9-d735-42bb-adfc-126cc24b47eb" class="custom-link">
+                    <img src="https://woocommercecore.mystagingwebsite.com/wp-content/uploads/2017/12/hoodie-green-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hoodie Green</h5>
+                        <p class="card-text">Stylish green hoodie.</p>
+                        <p class="card-text">49,99 $</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Product/Details/f86bc5ef-c561-4327-b2f7-18d3f492de4c" class="custom-link">
+                    <img src="https://woocommercecore.mystagingwebsite.com/wp-content/uploads/2017/12/vnech-tee-green-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">V-Neck Tee Green</h5>
+                        <p class="card-text">Stylish green v-neck tee.</p>
+                        <p class="card-text">29,99 $</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Product/Details/c2838c3f-3df5-4479-8510-193eef20f878" class="custom-link">
+                    <img src="https://woocommercecore.mystagingwebsite.com/wp-content/uploads/2017/12/sunglasses-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sunglasses</h5>
+                        <p class="card-text">Stylish and protective sunglasses.</p>
+                        <p class="card-text">22,99 $</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Product/Details/d3efa26d-0080-46f8-933a-1c9ac7919bcc" class="custom-link">
+                    <img src="https://woocommercecore.mystagingwebsite.com/wp-content/uploads/2017/12/t-shirt-with-logo-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">T-Shirt with Logo</h5>
+                        <p class="card-text">Logo printed stylish t-shirt.</p>
+                        <p class="card-text">25 $</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+

@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Shop";
+}
+
+
+<div class="container-lg ">
+    <div class="row">
+        <div class="col-md-3 mb-4 mt-4">
+            <div class="list-group">
+                <a class="list-group-item list-group-item">Categories</a>
+                <a href="~/Product" class="list-group-item list-group-item-action list-group-item-primary">All Products</a>
+                <a href="~/Product/Category?id=T-shirt" class="list-group-item list-group-item-action list-group-item-info">T-shirt</a>
+                <a href="~/Product/Category?id=Accessory" class="list-group-item list-group-item-action list-group-item-info">Accessory</a>
+                <a href="~/Product/Category?id=Hoodie" class="list-group-item list-group-item-action list-group-item-info">Hoodie</a>
+            </div>
+
+        </div>
+        <div class="col-md-9 mb-4 mt-4">
+            @await Component.InvokeAsync("AllProduct")
+        </div>
+    </div>
+</div>
