@@ -1,5 +1,7 @@
 # E-Commerce Demo Project
 
+You can access the released version at: https://hamza-alpaslan.com.tr
+
 1. About the Project  
 This is a demo e-commerce project built using ASP.NET Core 8.0 MVC and Entity Framework (Model-First).  
 Features:  
